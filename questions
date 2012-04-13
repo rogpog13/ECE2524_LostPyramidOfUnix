@@ -1,0 +1,521 @@
+question#int#answerA#answerB#answerC#answerD#answerE
+
+question = questions
+#int = answer number
+#answerA/B/C/D/E = answer choices
+
+//#int is the integer that will correspond to the correct answer choice
+
+Which one of the following is NOT a common UNIX shell command? 
+
+whoami 
+
+cp 
+
+rm 
+
+date 
+
+del 
+
+echo 
+
+hostname 
+
+The name of the Unix shell that we are using this semester is ____ 
+
+sh 
+
+ksh 
+
+bash 
+
+csh 
+
+When used correctly, the shell command 'mv' does what? 
+
+deletes a file 
+
+sends the contents of a text file to the shell windows 
+
+lists all files in the current directory 
+
+changes the name and/or location of a file 
+
+The PATH shell variable is used to store ____ 
+
+the full path to the current directory 
+
+the full path to the user's home directory 
+
+the list of directories that the shell searches for commands to execute 
+
+the list of subdirectories in the current directory 
+
+A Unix shell command that lists only those fils with names containing exactly 3 characters, in the current directory, is ___ 
+
+Is * 
+
+Is ??? 
+
+Is *** 
+
+Is -3 
+
+Which of the following is more similar to a "shortcut" on a Microsoft OS, such as Windows 7? 
+
+hard link 
+
+symbolic link 
+
+The shell command "chmod 710 myfile" will result in file permission codes ____________, as reported by "ls -l". 
+
+rwxrw-r-- 
+
+rwx--x--- 
+
+r---w---x 
+
+r--r--r-- 
+
+Suppose that you are using the vi text editor, and you are in  "command" (="normal") mode.  Which one of the following is NOT a command  to exit the vi program? 
+
+:q 
+
+ESC (pressing escape key) 
+
+ZZ 
+
+Consider a file named myfile that contains the following 2 lines of text: 
+
+bi 
+
+bye 
+
+The shell command "sort myfile | wc" should produce 3 numbers as output.  The FIRST number of output is ____. 
+
+1 
+
+2 
+
+3 
+
+4 
+
+5 
+
+Consider a file named myfile that contains the following 2 lines of text: 
+
+bi 
+
+bye 
+
+The shell command "sort myfile | wc" should produce 3 numbers as output.  The SECOND number of output is ____. 
+
+1 
+
+2 
+
+3 
+
+4 
+
+5 
+
+Consider a file named myfile that contains the following 2 lines of text: 
+
+bi 
+
+bye 
+
+The shell command "sort myfile | wc" should produce 3 numbers as output.  The THIRD number of output is ____. 
+
+1 
+
+3 
+
+5 
+
+7 
+
+9
+
+Assume that a file named myfile contains the following 2 lines of text: 
+
+I don't know why you say goodbye 
+
+I say hello!   
+
+The output of the command "grep you myfile" will be ________ . 
+
+I don't know why you say goodbye 
+
+I say hello! 
+
+I don't know why you say goodbye  
+
+I say hello!   
+
+
+
+Assume that a file named myfile contains the following 2 lines of text: 
+
+I don't know why you say goodbye 
+
+I say hello!   
+
+The output of the command "grep 'h.*lo' myfile" will be ________ . 
+
+I don't know why you say goodbye 
+
+I say hello! 
+
+I don't know why you say goodbye  
+
+I say hello!   
+
+
+
+Assume that a file named myfile contains the following 2 lines of text: 
+
+I don't know why you say goodbye 
+
+I say hello!   
+
+The output of the command "grep 'I [ds]' myfile" will be ________ . 
+
+I don't know why you say goodbye 
+
+I say hello! 
+
+I don't know why you say goodbye  
+
+I say hello!   
+
+
+
+Assume that a file named myfile contains the following 2 lines of text: 
+
+I don't know why you say goodbye 
+
+I say hello!   
+
+The output of the command "grep 'o.$' myfile" will be ________ . 
+
+I don't know why you say goodbye 
+
+I say hello! 
+
+I don't know why you say goodbye  
+
+I say hello!   
+
+
+
+Consider a text file named phone_number that contains the following line: 
+
+1.800.555.2172  
+
+We would like to find a shell command to convert the above line to: 
+
+1-800-555-2172  
+
+A possible shell command to accomplish this is _____ . 
+
+
+
+sed 's/./-/' phone_number 
+
+sed 's/\./-/' phone_number 
+
+sed 's/./-/g' phone_number 
+
+sed 's/\./-/g' phone_number 
+
+Assume that the command "wc myfile" produces the following output:   
+
+10 50 301 myfile   
+
+The output of the following command will be _________ .    
+
+wc myfile | awk '{print $1}' 
+
+10 
+
+50 
+
+301 
+
+Myfile 
+
+Assume that the command "wc myfile" produces the following output:   
+
+10 50 301 myfile 
+
+The output of the following command will be _________ . 
+
+wc myfile | awk '{print $1, $2, $3}' 
+
+10 50 301 
+
+301 50 10 
+
+50 301 myfile 
+
+"awk" supports a built-in variable with the name NR. The value that is automatically assigned to this variable is _________ . 
+
+The field names of the current record 
+
+The number of input records seen by "awk" so far 
+
+The field separator that is currently in use by "awk"
+
+On a Unix system, the system call known as ________ will suspend the  execution of a calling process until any of its child processes  terminates.  
+
+fork 
+
+wait 
+
+exec 
+
+kill 
+
+When the system call known as ________ executes normally on a Unix system, a new process is created.  
+
+fork 
+
+wait 
+
+exec 
+
+kill 
+
+On a Unix system, the system call known as ______ can be used to send a signal to any process. 
+
+fork 
+
+wait 
+
+exec 
+
+kill 
+
+On a Unix system, the system call known as ______ can be used to return a status value to the parent. 
+
+for 
+
+wait 
+
+exit 
+
+exec
+
+When we refer to the "exec" system call on a Unix system, we are  typically referring to a family of system calls that are closely  related. 
+
+True 
+
+False 
+
+The purpose of the Unix shell's "nice" command is _______ . 
+
+to report the list of jobs initiated by the user. 
+
+to measure the amount of time that the machine uses to run a program 
+
+to change the priority level of a process 
+
+If a Unix program is running in the foreground, then it can be suspended by typing ______. 
+
+CONTROL-a 
+
+CONTROL-z 
+
+CONTROL-c 
+
+Which of the following is NOT a valid process state on a Unix system, as reported by the "ps" command? 
+
+R 
+
+S 
+
+T 
+
+Z 
+
+all of the above 
+
+One way to run a program in the background is to type the character _________ at the end of the shell command. 
+
+@ (at) 
+
+$ (ampresand) 
+
+; (semi-colon) 
+
+none of the above 
+
+In standard I/O streams  in C++, standard input is ______. 
+
+cin 
+
+cout 
+
+cerr 
+
+cinput 
+
+In standard I/O streams  in C++, standard output is ______. 
+
+cin 
+
+cout 
+
+cerr 
+
+coutput 
+
+In standard I/O streams  in C++, standard error is ______. 
+
+cin 
+
+cout 
+
+cerr 
+
+cerror 
+
+______ is a program that applies a "script" of pattern/action pairs to text. 
+
+awk 
+
+bash 
+
+grep 
+
+sed 
+
+______ is a program that performs non-interactive text editing 
+
+awk 
+
+bash 
+
+grep 
+
+sed 
+
+What does grep stand for? 
+
+globally find regular expressions and patterns 
+
+globally regulating expressions and programs 
+
+globally find regular expressions and print 
+
+globally finding regular expressions and programming 
+
+______ looks for text lines in a file that match a specified pattern, and then prints those lines. 
+
+grep 
+
+sed 
+
+awk 
+
+sed 
+
+When using grep, the ______ matches zero or more occurrences of the previous item. 
+
+asterisk (*) 
+
+ampresand (&) 
+
+dollar ($) 
+
+carrot (^) 
+
+When using grep, the ______ matches the beginning of a line. 
+
+asterisk (*) 
+
+ampresand (&) 
+
+period (.) 
+
+carrot (^) 
+
+When using grep, the ______ matches the end of a line. 
+
+dollar ($) 
+
+ampresand (&) 
+
+carrot (^) 
+
+period (.) 
+
+A ______ is a compact way to specify a set of character strings. 
+
+regular programming 
+
+regular expressions 
+
+command 
+
+A ______ is used to create/modify text files. 
+
+text maker 
+
+text editor 
+
+texter
+
+Which command sends (almost) anything you type back to the screen? 
+
+ecko 
+
+echo 
+
+copy 
+
+cout 
+
+To see the files that are contained in your current directory, type the command _____. 
+
+cout 
+
+cd 
+
+echo 
+
+ls 
+
+To view the contents of a file, type the command ______. 
+
+dog 
+
+cat 
+
+mouse 
+
+penguin 
+
+The _____ command, removes a file. 
+
+remove 
+
+del 
+
+rm 
+
+erase 
+
+Unix was originally developed at 
+
+Apple Inc. 
+
+Microsoft 
+
+AT&T/Bell Labs 
+
+Texas Instruments
