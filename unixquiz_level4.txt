@@ -1,0 +1,14 @@
+"awk" supports a built-in variable with the name NR. The value that is automatically assigned to this variable is _________.#2#The field names of the current record#The number of input records seen by "awk" so far#The field separator that is currently in use by "awk"
+
+A Unix shell command that lists only those files with names containing exactly 3 characters, in the current directory, is _____.#2#ls *#ls ???#ls ***#ls -3
+
+One way to run a program in the background is to type the character _________ at the end of the shell command.#2#@ (at)#& (ampresand)#; (semi-colon)#none of the above
+
+On a Unix system, the system call known as ________ will suspend the execution of a calling process until any of its child processes terminates.#2#fork#wait#exec#kill
+
+When the system call known as ________ executes normally on a Unix system, a new process is created.#1#fork#wait#exec#kill
+
+On a Unix system, the system call known as ______ can be used to send a signal to any process.#4#fork#wait#exec#kill
+
+On a Unix system, the system call known as ______ can be used to return a status value to the parent.#3#for3wait#exit#exec
+
