@@ -249,7 +249,7 @@ vector<string> generateQuestions()
 
 	question[34] = "The purpose of the Unix shell's 'nice' command is _______.#3#To report the list of jobs initiated by the user#To measure the amount of time that the machine uses to run a program#To change the priority level of a process#none of the above";
 
-	question[35] = "Which of the following is NOT a valid process state on a Unix system, as reported by the 'ps' command?#5#R#S#T#All of the above";
+	question[35] = "Which of the following is NOT a valid process state on a Unix system, as reported by the 'ps' command?#4#R#S#T#All of the above";
 
 	return question;
 }
